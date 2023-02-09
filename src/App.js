@@ -6,6 +6,7 @@ import './Style.css'
 function App() {
  
   const [nutri, setNutri] = useState([]);
+  console.log('oi')
 
   useEffect(()=> {
 
